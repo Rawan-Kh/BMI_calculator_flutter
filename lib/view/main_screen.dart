@@ -1,7 +1,5 @@
 import 'dart:math';
 import 'package:starter_namer/view/result_screen.dart';
-
-
 import 'package:flutter/material.dart';
 
 class BmiScreen extends StatefulWidget {
@@ -19,7 +17,6 @@ class _BmiScreenState extends State<BmiScreen> {
   double height = 120.0;
   int wieght = 40;
   int age = 20;
-  late String name;
   double result = 0.0;
 
 
