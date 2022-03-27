@@ -40,7 +40,7 @@ class BMIResultScreen extends StatelessWidget {
           padding: const EdgeInsets.all(10.0),
           child: Container(
             width: double.infinity,
-            height: 200.0,
+            height: 300.0,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10.0),
               color:  Color.fromARGB(255, 243, 199, 54),
@@ -57,7 +57,7 @@ class BMIResultScreen extends StatelessWidget {
               style:TextStyle(
                       fontWeight: FontWeight.bold,
                       color:Colors.white,
-                      fontSize:20,),
+                      fontSize:25.0,),
                       ),
                         const SizedBox(height: 5.0),
                   Text(
