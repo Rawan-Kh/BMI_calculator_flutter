@@ -14,8 +14,8 @@ class _BmiScreenState extends State<BmiScreen> {
   bool isMale = true;
 
   // intial value of variables
-  double height = 120.0;
-  int wieght = 40;
+  double height = 160.0;
+  int wieght = 60;
   int age = 20;
   double result = 0.0;
 
