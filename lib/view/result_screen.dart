@@ -6,7 +6,7 @@ class BMIResultScreen extends StatelessWidget {
   final int wieght;
   final int age;
   final bool isMale;
-  final String name;
+  
   const BMIResultScreen({
     Key? key,
     required this.resultBmi,
@@ -14,7 +14,7 @@ class BMIResultScreen extends StatelessWidget {
     required this.wieght,
     required this.age,
     required this.isMale,
-    required this.name,
+    
   }) : super(key: key);
 
   @override
